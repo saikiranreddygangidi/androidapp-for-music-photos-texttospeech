@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anirudh.entertainment1.MainActivity"
+    android:background="@drawable/sai3">
+
+
+    <CheckBox
+        android:id="@+id/r1"
+        android:layout_width="125dp"
+        android:textSize="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="83dp"
+        android:text="music"
+        android:textColor="@android:color/white" />
+
+    <CheckBox
+        android:id="@+id/r2"
+        android:layout_width="125dp"
+        android:layout_height="30dp"
+        android:textSize="30dp"
+        android:layout_alignStart="@+id/r1"
+        android:layout_below="@+id/r1"
+        android:layout_marginTop="13dp"
+
+        android:text="photos"
+        android:textColor="@android:color/white" />
+
+    <CheckBox
+        android:id="@+id/r3"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_alignEnd="@+id/r2"
+        android:layout_below="@+id/r2"
+        android:layout_marginTop="29dp"
+        android:text="text"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="500dp"
+        android:layout_height="30dp"
+        android:textSize="30dp"
+        android:layout_marginTop="38dp"
+        android:text="select any one"
+        android:textColor="@android:color/white"
+        android:layout_marginStart="47dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Done"
+        android:layout_below="@+id/r3"
+        android:layout_alignStart="@+id/r3"
+        android:layout_marginStart="15dp" />
+</RelativeLayout>
